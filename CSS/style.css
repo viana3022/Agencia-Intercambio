@@ -262,6 +262,90 @@ nav .close-icon{
     color: white;
 }
 
+/*pagina sobre*/
+
+.sobre .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre .sobre-text{
+    width: 50%;
+    padding-right: 40px;
+}
+
+.sobre .sobre-text p{
+    margin: 18px 0;
+    color: #000000a6;
+}
+
+.sobre .sobre-img{
+    width: 50%;
+}
+
+.sobre .sobre-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+/*end pagina sobre*/
+
+/*pagina serviços*/
+.servicos h3{
+    text-align: center;
+}
+
+.servicos .container > p{
+    text-align: center;
+}
+
+.servicos .rows-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.servicos .row-card-item{
+    background-color: #d3e6fd;
+    width: 490px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
+}
+
+.servicos .row-card-item:hover{
+    background-color: #4f9cf9;
+}
+
+.servicos .row-card-item:hover p{
+    color: white;
+}
+
+.servicos .row-card-item img{
+    background-color: #4f9cf9;
+    width: 450px;
+    height: 190px;
+    border-radius: 14px;
+    /* border-top-right-radius: 14px; */
+    /* border-top-left-radius: 14px; */
+    display: block;
+    margin: auto;
+}
+
+.servicos .row-card-item p.nome-servico{
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+.servicos .row-card-item p.descricao-servico{
+    transition: 0.3;
+}
+
+/*end pagina serviços*/
+
+
+
 @media(max-width: 830px){
     /*mobile menu*/
 
